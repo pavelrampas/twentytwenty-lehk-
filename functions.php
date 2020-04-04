@@ -22,11 +22,13 @@ function my_wp_enqueue_scripts() {
 add_action( 'wp_enqueue_scripts', 'my_wp_enqueue_scripts', 11 );
 
 /**
- * Disable embeds.
+ * Disable embeds and other inline scripts.
  */
 function disable_embeds_code_init() {
 	if ( ! is_admin() ) {
 		remove_action( 'wp_head', 'wp_oembed_add_host_js' );
+		remove_action( 'wp_head', 'twentytwenty_no_js_class' );
+		remove_action( 'wp_print_footer_scripts', 'twentytwenty_skip_link_focus_fix' );
 	}
 }
 add_action( 'init', 'disable_embeds_code_init', 11 );
