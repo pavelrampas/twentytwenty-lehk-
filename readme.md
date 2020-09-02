@@ -2,7 +2,7 @@
 
 WordPress Twenty Twenty Child Theme without js and css
 
-Use Twenty Twenty 1.2
+Use Twenty Twenty 1.5
 
 ## Changes
 
@@ -11,4 +11,4 @@ Use Twenty Twenty 1.2
 - Disabled all .css files on frontend except base theme style.css file.
 - Disabled everything about emoji's.
 - Removed fonts from style.css file.
-- Minified style.css file. <https://www.cleancss.com/css-minify/>
+- Minified style.css file. <https://cssminifier.com/>
