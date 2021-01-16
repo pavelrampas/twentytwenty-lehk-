@@ -2,7 +2,7 @@
 
 WordPress Twenty Twenty Child Theme without js and css
 
-Use Twenty Twenty 1.5
+Use Twenty Twenty 1.6
 
 ## Changes
 
